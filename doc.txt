@@ -1,0 +1,36 @@
+HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages. The basic purpose of HTML in web developement is to provides the basic structure and elements necessary to display text, images, links, forms, and other types of media, making it accessible and understandable in a web browser.The primary role of HTML in web development is to define the structure of a web page. HTML tags are used to define the different elements of a web page, such as headings, paragraphs, images, and links. HTML also defines the layout of a web page by using tags to control the alignment, spacing, and size of elements.
+
+Elements are the building blocks which are used to create webpages and make up the fundamental structure of HTML documents. It consists of an opening tag, content, and a closing tag. Elements define the structure and hierarchy of the document, grouping and organizing content within the document tree. while an attribute provides additional information about an HTML element and is used to define the characteristics of an element. It generally provides additional styling (attribute) to the element. Attributes are always specified in the start tag and usually consist of a name/value pair. Examples of attributes include class, id, src, href, alt
+
+DOCTYPE is a type declaration that is used to tell web browsers what version of HTML we are using in our webpage/website.It let's the browser know how the document should be interpreted,by indicating the version or standard of HTML(or any other mark up language) being used. If you omit the DOCTYPE declaration, the browser may enter "quirks mode," which can lead to inconsistent rendering differently than intended.
+
+Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are inline. Inline elements don’t start from a new line. They only take up as much width as necessary. Examples include <span>, <a>, <strong>, and <em> <span>This is inline text.</span>. while Block elements begin from a new line by default and cover 
+
+space to its left and right as far as it can go. Examples include <div>, <p>, <h1> to <h6>, and <ul>. <p>Hello World</p>
+<head>: Contains meta-information about the HTML document, such as title, character set, and linked stylesheets.
+<div>: Defines a division or a section in an HTML document and is often used for styling purposes or to group other HTML elements.
+<a>: Creates hyperlinks to navigate to other pages or resources. The href attribute specifies the destination.
+<img>: Embeds images in an HTML document. The src attribute points to the image file, and alt provides alternative text.
+<ul>, <ol>, and <li>: Used to create unordered and ordered lists. <ul> represents an unordered list, <ol> represents an ordered list, and <li> represents list items.
+
+Semantic HTML improves SEO by providing clearer context to search engines. They provide information about the role that different parts of the content play, making it clearer for both browsers and developers. It uses specific tags like <header>, <footer>, <article>, which help search engines understand and index the content better, potentially leading to improved search rankings
+The <form> element is used to create an HTML form, which is a way to collect user input. Form controls are elements within a form that allow users to interact and submit data. Examples of form controls include:
+
+<input>: Allows various types of user input, such as text, checkboxes, radio buttons, : <input type="text" id="fname" name="fname"> 
+<textarea>: Creates a multi-line text input field: <textarea name="message" rows="10" cols="30">
+Jane is a girl.
+</textarea>
+<select>: The <select> element defines a drop-down list: <label for="houses">Choose a house:</label>
+<button>: The <button> element defines a clickable button.: <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<label>: The <label> element defines a label for several form elements: <select id="houses" name="houses">
+Adding a comment in HTML is done by using the <!-- and --> tags. Anything that is placed between these tags will not be displayed in the browser, but will be visible when looking at the source code. They are useful for leaving notes, explanations, or reminders for developers, making the code more understandable.
+
+HTML5 is the latest version of Hypertext Markup Language, used for structuring content on the web.  Some its new features include: 
+New parsing rules for enhanced flexibility.
+New attributes for form elements, such as placeholder and required.
+New semantic elements like <article>, <section>, <header>, <footer>, and <nav.
+Native support for audio and video elements (<audio> and <video>).
+The <canvas> element for drawing graphics using JavaScript.
+Improved support for offline web applications through the use of the Application Cache.
+
+Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. For a website to be considered responsive, It means the website contain flexible layout that automatically scale its content and elements according to screen size on which it is viewed. It simply resizes, shrink, enlarge, hide web pages so that it can look better on all type of devices and does not have to zoom and pan to see any content on website. A responsive web design can be achieved with the use of CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.
