@@ -1,57 +1,83 @@
-/* Reset some default styles and set a background color */
-body, h1, h2, p, ul, li, img {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
     color: #333;
-}
-
-/* Style the main heading */
-.main-heading {
-    font-family: 'Pacifico', cursive;
-    font-size: 3em;
-    color: #3498db;
+  }
+  
+  header, nav, section, footer {
+    margin: 20px;
+  }
+  
+  header h1, nav ul, footer p {
     text-align: center;
-    margin: 20px 0;
-}
-
-/* Style section headings */
-.section-heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    color: #2ecc71;
-    margin-bottom: 10px;
-}
-
-/* Style the introduction paragraph */
-.intro-paragraph {
-    font-family: 'Georgia', serif;
-    font-size: 1.2em;
-    line-height: 1.6;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Style the project list */
-ul {
-    list-style-type: none;
-}
-
-li {
-    margin-bottom: 8px;
-}
-
-/* Style the portfolio image */
-.portfolio-image {
-    display: block;
-    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe img, .recipe-details img, .team-member img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-}
+    border-radius: 10px;
+  }
+  
+  .view-recipe-btn, .read-more-btn, .back-to-recipes-btn, .back-to-home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff7043;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-recipe-btn:hover, .read-more-btn:hover, .back-to-recipes-btn:hover, .back-to-home-btn:hover {
+    background-color: #ff5722;
+  }
+  
+  header {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    background-color: #ff7043;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
