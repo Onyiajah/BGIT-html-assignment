@@ -1,0 +1,5 @@
+The <!DOCTYPE> declaration informs the web browser about the type and version of HTML used in building the web document.
+It basically tells  the browser how the document should be interpreted, by indicating what version or standard of HTML
+ (or other markup language) is being used in the document.
+
+ 
