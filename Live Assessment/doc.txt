@@ -1,0 +1,77 @@
+The <!DOCTYPE> declaration informs the web browser about the type and version of HTML used in building the web document.
+It basically tells  the browser how the document should be interpreted, by indicating what version or standard of HTML
+ (or other markup language) is being used in the document.
+
+ Difference between <div> and <span>:
+
+The div and span tags in HTML are elements used to mark two different parts of the web page.
+ they are both used for both structural and styling purposes. 
+<div>: It is a block-level element used to group other HTML elements and apply styles or scripts collectively. The div element is typically used to separate page content into blocks. 
+The <div> tag is used as a container for HTML elements, styled with CSS or manipulated with JavaScript and can easily customized by using the class or id attribute.
+<span>: The <span> element is an inline element used to apply styles or scripts to a specific portion of text within a block-level element.
+The <div> and <span> tag in HTML are similar to each other, with the exception that <div> is a block-level element while <span> is an inline element.
+
+Semantic HTML:
+Semantic HTML are tags that are used to define the content of a tag. It carries the meaning, structure and content of the page. 
+It is important for accessibility, SEO, and maintenance.
+Semantic HTML improves SEO by providing clearer context to search engines. They provide information about the role that different parts of the content play, making it clearer for both browsers and developers.
+It uses specific tags like <header>, <footer>, <article>, which help search engines understand and index the content better, potentially leading to improved search rankings
+
+CSS Fundamentals:
+
+Margin vs. Padding:
+
+Padding is the amount of distance between an element and its content. Creating a gap will wither grow the size of the element or shrink its content but by default, 
+the size of the element increases. 
+
+Margin is the space around an element and is used to determine the amount of space that surrounds it. 
+Margins can be used to move an element in any direction you’d like and to adjust the amount of space between itself and other elements.
+
+Box Model:
+
+The CSS box model is a container that houses multiple properties such as; borders, margin, padding, and the content itself. 
+It is used to create the design and layout of a web page. 
+
+CSS Specificity Hierarchy:
+
+The Specificity hierarchy is simply  the categories of CSS selectors and their order of execution in CSS.
+It sets the ordering for CSS selectors such that the selector with a higher specificity score has higher priority as compared to other  selectors
+Eg: inline styles > ID selectors > class selectors > element selectors. 
+
+
+Responsive Design:
+
+Media Queries:
+
+Media Queries are used to create responsive websites that that varies in design and looks good on different screen sizes, from desktop to mobile.
+
+Adaptive vs. Responsive Design:
+
+A responsive web design  uses flexible grids and media queries that enables a web page’s design and layout to automatically adapt to any screen size.
+Responsive Web design suggests that both design and development should respond to the user’s behavior and environment based on screen size, platform and orientation.
+For a website to be considered responsive, It means the website contain flexible layout that automatically scale its content and elements according to screen size on which it is viewed.
+It simply resizes, shrink, enlarge, hide web pages so that it can look better on all type of devices and does not have to zoom and pan to see any content on website 
+and can be achieved with the use of CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.
+
+Adaptive web design  uses predefined layouts for specific devices whereby the browser loads a layout created specifically for the given platform
+
+Viewport:
+The viewport determines which portions of the page are visible on a device and the lay out of it's content. 
+Eg, <meta> tag is used for scaling on different divices.
+
+HTML5 and CSS3 Features:
+Native support for audio and video elements (<audio> and <video>).
+The <canvas> element for drawing graphics using JavaScript.
+Improved support for offline web applications through the use of the Application Cache.
+
+
+CSS Variables:
+CSS variables allow for the storage of reusable values. They differ from traditional variables because they are defined in CSS and accessible throughout the stylesheet.
+
+Flexbox or Grid Layout:
+
+Flexbox, is usually used for one-dimensional layouts, such as rows or columns. it makes it easier to manipulate the size and position of elements and change the order of stuff on the page.
+while grid layout on the other hand, is best suited for two-dimensional layouts, providing more control over rows and columns. 
+It also provides a way to create structured layouts using numerical coordinates and allows for more precise placement of elements in a two-dimensional space.
+
+ 
